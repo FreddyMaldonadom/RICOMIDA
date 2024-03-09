@@ -23,6 +23,54 @@
 
 /*BODY01*/
 .imgpizza{
-
-    padding: 20px;
+    padding: 40px;
 }
+.title{
+    padding: 10% 5% 5% 5%;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #373A3C;
+    font-size: 40px;
+}
+
+.h3title{
+    padding: 5%;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #373A3C;
+    font-size: 20px;
+}
+
+.h2title{
+    padding: 5%;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #373A3C;
+    font-size: 20px;
+
+}
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-container {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
