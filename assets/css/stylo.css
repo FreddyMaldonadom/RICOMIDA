@@ -1,3 +1,5 @@
+
+
 /*NAV*/
 .navcolor{
     background-color: #373A3C!important;
@@ -63,64 +65,50 @@
     color: #373A3C;
     font-size: 20px;
 }
-/*ENTRADA*/
-.btnsend{
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
-
+/*CARD*/
 .card {
     display: flex;
     flex-direction: column;
   }
-  
+/**/
   .img-container {
     flex: 1;
     overflow: hidden;
   }
-  
-  .img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .border{
+
+.border{
     color:#000!important;
     margin-top: 50px;
   }
-
-.cred{
-    background-color: #DC3545;
-}
-
-.h1titlew{
-    text-align: center;
-    font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    color: #ffffff;
-    font-size: 40px;
-    padding-top: 10%;
-}
-.h4title{
-    text-align: center;
-    font-family: "Cabin", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #ffffff;
-    font-size: 30px;
-    padding-bottom: 5%;
-}
-.btnw{
-    padding: 15px;
-    margin-bottom: 80px;
-}
-
 .cgray{
     background-color: #373A3C;
+}
+.cred{
+    background-color: #DC3545;
+    padding-bottom: 5rem;
+    width: 100vw;
+
+    .h1titlew{
+        text-align: center;
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 40px;
+        padding-top: 10%;
+    }
+    .h4title{
+        text-align: center;
+        font-family: "Cabin", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff;
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
 }
 .lobsterfooter{
     font-family: "Lobster", sans-serif;
@@ -138,9 +126,6 @@
     font-size: 30px;
     color: #fff;
 }
-.cred,
-.cgray {
-    width: 100%!important;
-}
+
 
 
