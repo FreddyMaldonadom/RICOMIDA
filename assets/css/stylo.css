@@ -63,8 +63,11 @@
     color: #373A3C;
     font-size: 20px;
 }
-
-
+/*ENTRADA*/
+.btnsend{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
 .card {
@@ -89,7 +92,6 @@
 
 .cred{
     background-color: #DC3545;
-    margin-top: 80px!important;
 }
 
 .h1titlew{
@@ -112,11 +114,9 @@
     font-size: 30px;
     padding-bottom: 5%;
 }
-.btn{
-    color: white;
+.btnw{
     padding: 15px;
     margin-bottom: 80px;
-    outline: 2px solid  #fff;
 }
 
 .cgray{
@@ -137,6 +137,10 @@
     font-style: normal;
     font-size: 30px;
     color: #fff;
+}
+.cred,
+.cgray {
+    width: 100%!important;
 }
 
 
